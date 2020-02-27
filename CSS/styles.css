@@ -1,8 +1,11 @@
+
 body {
-  background-color: #3c4245;
+
+  background: linear-gradient(45deg, #790958, #033c9d );
   padding: 0;
   margin: 0;
 }
+
 
 li {
   list-style-type: none;
@@ -14,12 +17,29 @@ span {
   list-style-type: none;
   padding: 25px;
   color: white;
+  font-size: 1.5rem;
 }
 
 p {
   list-style-type: none;
   padding-left: 25px;
   color: white;
+  font-size: 1.3rem;
+
+}
+
+
+
+h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 25px;
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* IPC */
@@ -33,23 +53,40 @@ p {
   color: white;
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-/* HARDWARE w/containers */
-.input-container {
+/* system tech w/containers */
+
+.section-one-container {
   color: white;
-  padding-left: 15px;
-
+  padding-left: 35px;
+  padding-bottom: 20px;
 }
 
-.hardware-headings {
-  padding-top: 15px;
+.PortablePC-container {
+  color: white;
+  padding-left: 35px;
+  display: inline-block;
+}
+
+.Users-container {
+  color: white;
+  padding-left: 35px;
+  display: inline-block;
+}
+
+
+.Convergence-container {
+  /* text-align: center; */
+  text-decoration: underline;
   color: white;
 }
 
-.hardware-mid {
-  text-align: center;
-  padding-top: 50px;
+.ContentContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .storage-container {
@@ -72,7 +109,9 @@ p {
   padding: 15px;
 }
 
-
+.hardware-container {
+  margin: 100px;
+}
 
 /* processing-container */
 .processing-container {
@@ -85,8 +124,9 @@ p {
 
 /* CLASSES */
 .main-container {
-  background-color: #3c4245;
+
   color: white;
+  text-align: center;
 }
 
 .col-md-12 {
@@ -101,7 +141,7 @@ p {
 }
 
 .navbar {
-  background-color: #3c4245;
+  background: linear-gradient(#161344, #790958);
 }
 
 
@@ -112,3 +152,9 @@ p {
 
 
 /* CLASSES */
+
+
+.js-button
+{
+  margin-bottom: 40px;
+}
